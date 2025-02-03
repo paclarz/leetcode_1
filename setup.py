@@ -2,6 +2,7 @@ import os
 import sys
 import time
 
+
 class myPath:
     rootPath = os.getcwd()  # the root path of the project
     path = rootPath  # the core path
@@ -23,11 +24,21 @@ class myPath:
 
         return self.path
 
+
 class FileManager:
     rootPath = myPath()  # the root path of the project
     problemPath = myPath() + "problems"  # the path of the problems folder
     checkPath = myPath() + "problems" + "check"  # the default path of the check folder
     solvePath = myPath() + "problems" + "solve"  # the default path of the solve folder
+
+    # 如果这些路径不存在，则创建它们
+    def __init__(self):
+        if not os.path.exists(self.problemPath()):
+            os.makedirs(self.problemPath())
+        if not os.path.exists(self.checkPath()):
+            os.makedirs(self.checkPath())
+        if not os.path.exists(self.solvePath()):
+            os.makedirs(self.solvePath())
 
     dirs = os.listdir(rootPath())  # the list of the directories in the problems folder
 
@@ -54,6 +65,7 @@ class FileManager:
             return True
         else:
             return False
+
 
 class SetupProblems(FileManager):
     thisTime = time.localtime()  # the current time
@@ -106,9 +118,11 @@ class SetupProblems(FileManager):
                        + "# created by setup.py at " \
                        + time.strftime("%Y-%m-%d %H:%M:%S", self.thisTime) + "\n"
 
+
 def exe():
     name = sys.argv[1]
     assert len(name) == 4, "incorrect filename"
     SetupProblems(name)
+
 
 exe()

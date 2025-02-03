@@ -6,8 +6,9 @@
       <sourceFolder url="file://$MODULE_DIR$/problems" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/mid" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unsolve" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fail" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
