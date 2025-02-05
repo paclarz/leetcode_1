@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1527ff8-e298-44d0-9426-65647918fb2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/done/0004.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/failed/0004_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0004.py" beforeDir="false" afterPath="$PROJECT_DIR$/failed/0004.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/done/.placeholder" beforeDir="false" />
-    </list>
+    <list default="true" id="a1527ff8-e298-44d0-9426-65647918fb2d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +45,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "/Users/evanspaclarz/code/leetcode_1",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "terminal",
     "settings.editor.splitter.proportion": "0.32924336"
   }
 }]]></component>
@@ -138,9 +130,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.0004" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.setup" />
-      <item itemvalue="Python.0004" />
     </list>
     <recent_temporary>
       <list>
